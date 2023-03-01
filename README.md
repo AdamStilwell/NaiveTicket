@@ -59,9 +59,9 @@ in the outer wrapper of a class? Yes if public comes after the class there is no
 * From your earlier experimentation with the ticket machine objects within BlueJ you can probably remember the names of some of the methods – `printTicket`, for instance.
     * Look at the class definition in Code 2.1 and use this knowledge, along with the additional information about ordering we have given you, to try to make a list of the names of the fields, constructors, and methods in the `TicketMachine` class.
     * Hint: There is only one constructor in the class.
-    * Fields: price, balance, ticketNumber, total, 
+    * Fields: price, balance, total, 
     * Constructors: TicketMachine
-    * Methods: printTicket, incrementTicketNumber, calculateTotal, insertMoney, getBalance, getPrice, getTicketNumber, getPrice
+    * Methods: printTicket, insertMoney, getBalance, getPrice
 
 ### Exercise 2.10
 * Do you notice any features of the constructor that make it significantly different from the other methods of the class? The first letter is capitalized.
@@ -70,9 +70,9 @@ in the outer wrapper of a class? Yes if public comes after the class there is no
 * What do you think is the type of each of the following fields?
 
 ```java
-private int count; Field
-private Student representative; Field
-private Server host; Field
+private int count; int
+private Student representative; string
+private Server host; string
 ```
 
 ### Exercise 2.12
@@ -109,7 +109,7 @@ possible?
 ### Exercise 2.16
 * To what class does the following constructor belong?
 ```
-public Student(String name) string.
+public Student(String name) Student.
 ```
 
 ### Exercise 2.17
